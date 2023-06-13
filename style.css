@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+nav {
+    height: 80px;
+}
+
+nav h1 {
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: rgb(87, 208, 35);
+}
+
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a {
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(63, 220, 10);
+    transition: 0.5s ease;
+}
+
+nav ul li .active {
+    background-color: rgb(25, 218, 15);
+}
+
+.center_part {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(10vh);
+}
+
+.center_part h1 {
+    font-size: 40px;
+    color: rgb(223, 216, 7);
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.center_part p {
+    font-size: 24px;
+    color: #43d816;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.center_part .btn {
+    color: #fff;
+    padding: 14px 27px;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #af4e49;
+}
+
+.center_part .btn:hover {
+    background-color: #4399fa;
+    transition: 0.5s ease;
+}
